@@ -1,0 +1,31 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.7/marx.min.css");
+@import url('https://fonts.googleapis.com/css?family=Jura');
+
+
+
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+canvas{
+    width: 100%;
+    height: 100%;
+}
+
+#contact{
+    font-family: 'Jura';
+    position: fixed;
+    background: white;
+    right: 50px;
+    bottom: 50px;
+    padding: 10px;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+#contact:hover>a{
+    color: #2196f3;
+    text-decoration: none;
+}
